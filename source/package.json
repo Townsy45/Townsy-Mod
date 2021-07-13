@@ -1,0 +1,30 @@
+{
+  "name": "townsy-bot",
+  "version": "1.0.0",
+  "description": "A discord bot for my private server.",
+  "main": "index.js",
+  "_moduleAliases": {
+    "~": ".",
+    "utils": "utility",
+    "logs": "utility/logs",
+    "database": "utility/database"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/townsy45/townsy-mod.git"
+  },
+  "author": "Townsy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/townsy45/townsy-mod/issues"
+  },
+  "homepage": "https://github.com/townsy45/townsy-mod#readme",
+  "dependencies": {
+    "discord.js": "^13.0.0-dev.1dcad05.1626178061",
+    "dotenv": "^10.0.0",
+    "module-alias": "^2.2.2",
+    "mustang-log": "^1.1.2",
+    "pg": "^8.6.0",
+    "simply-discord": "^1.2.1"
+  }
+}
